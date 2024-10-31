@@ -1,0 +1,320 @@
+* {
+    margin: 10;
+    padding: 5;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url(photo-1483721310020-03333e577078.jpeg);
+    background-size: cover;
+    background-position:5 center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    padding: 20px;
+}
+.navbar {
+    position:fixed;
+    display: flex;
+    gap: 0%;
+    top: 60px;
+    left: 40px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+#logo {
+    position: fixed; /* Fixed position */
+    display: flex;
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    width: 120px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure logo is above other content */
+    transition: 0.3s;
+}
+.content{
+    margin-top: 300px;
+    margin-left: 100px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+.motivation{
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(255,255, 255,0.8);
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.motivation-content {
+    display: flex;
+    align-items: center;
+}
+.motivation-image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.motivation p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition:background-color 0.3s;
+}
+button:hover {
+    background-color: orange;
+}
+
+.text-container {
+    margin-left: 240px;
+    max-width: 600px; 
+}
+#read-more-btn {
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    background-color: rgb(2, 2, 2); 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#read-more-btn:hover {
+    background-color:orange;
+}
+.hidden-text {
+    display: none; /* Ensure the text can be animated */
+    visibility: hidden; /* Hide the text initially */
+    border-right: 2px solid #007BFF; /* Cursor effect */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow */
+    animation: blink 0.75s step-end infinite; /* Blink cursor effect */
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Blink effect for the cursor */
+    }
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.box {
+    width: 32%;
+    background-color: #ffffff;
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+}
+
+.box p {
+    font-size: 1em;
+    color: #555;
+}
+* {
+    margin: 10;
+    padding: 5;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url(transformmmm.jpeg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    padding: 20px;
+}
+.navbar {
+    position:fixed;
+    display: flex;
+    gap: 0%;
+    top: 60px;
+    left: 40px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+#logo {
+    position: fixed; /* Fixed position */
+    display: flex;
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    width: 120px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure logo is above other content */
+    transition: 0.3s;
+}
+.content{
+    margin-top: 300px;
+    margin-left: 100px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.motivation{
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(255,255, 255,0.8);
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.motivation-content {
+    display: flex;
+    align-items: center;
+}
+.motivation-image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.motivation p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition:background-color 0.3s;
+}
+button:hover {
+    background-color: orange;
+}
+
+.text-container {
+    margin-left: 240px;
+    max-width: 600px; 
+}
+#read-more-btn {
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    background-color: rgb(2, 2, 2); 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#read-more-btn:hover {
+    background-color:orange;
+}
+.hidden-text {
+    display: none; /* Ensure the text can be animated */
+    visibility: hidden; /* Hide the text initially */
+    border-right: 2px solid #007BFF; /* Cursor effect */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow */
+    animation: blink 0.75s step-end infinite; /* Blink cursor effect */
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Blink effect for the cursor */
+    }
+}
+
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.box {
+    width: 32%;
+    background-color: #ffffff;
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+}
+
+.box p {
+    font-size: 1em;
+    color: #555;
+}
